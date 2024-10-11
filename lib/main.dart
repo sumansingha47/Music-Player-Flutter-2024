@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:music_player_flutter_2024/Pages/PlaySongPage.dart';
 import 'package:music_player_flutter_2024/Pages/SlashScreen.dart';
 import 'package:music_player_flutter_2024/Pages/SongPage.dart';
 import 'package:music_player_flutter_2024/config/Theme.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Music Player',
       theme: darkTheme,
-      home: const SongPage(),
+      home: const PlaySongPage(),
     );
   }
 }
