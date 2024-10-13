@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Music Player',
       theme: darkTheme,
-      home: const PlaySongPage(),
+      home: const SongPage(),
     );
   }
 }
